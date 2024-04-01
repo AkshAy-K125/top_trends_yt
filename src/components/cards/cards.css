@@ -1,0 +1,12 @@
+.card {
+    height: 5rem;
+    background-color: white;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    background: linear-gradient(90deg, #ff0000 7%, #8B0000 55%, #000000 100%);
+    border: 0.01px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}

@@ -1,0 +1,25 @@
+.headerContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.headerContainer h2 {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-variant: all-petite-caps;
+}
+
+
+.headerContainer select {
+    -webkit-appearance: none;
+    height: 2rem;
+    width: 5rem;
+    text-align: center;
+    border-radius: 05rem;
+    border: none;
+    color: red;
+    font-weight: bold;
+}
