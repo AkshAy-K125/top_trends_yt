@@ -23,3 +23,14 @@
     color: red;
     font-weight: bold;
 }
+
+.initialPageWarn {
+    text-align: center;
+    color: white;
+}
+
+.selectFlex {
+    width: 15rem;
+    display: flex;
+    justify-content: space-evenly;
+}

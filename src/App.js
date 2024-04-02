@@ -1,10 +1,9 @@
-import { CardContainer, HeaderContainer } from './container';
+import { HeaderContainer } from './container';
 
 const App = () => {
   return (
     <>
       <HeaderContainer />
-      <CardContainer />
     </>
   )
 }

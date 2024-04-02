@@ -1,7 +1,7 @@
 .card {
-    height: 5rem;
+    height: 7rem;
     background-color: white;
-    padding: 2rem;
+    padding: 1rem;
     margin: 1rem;
     border-radius: 0.5rem;
     background: linear-gradient(90deg, #ff0000 7%, #8B0000 55%, #000000 100%);
@@ -9,4 +9,39 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
+}
+
+.thumContainer img {
+    border-radius: 0.5rem;
+    width: 150px;
+}
+
+.detailsContainer {
+    width: 100%;
+    margin: 0 0 0 2rem;
+}
+
+.detailsContainer a {
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.detailsContainer p {
+    font-size: 1vw;
+    color: white;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 620px) {
+
+    .detailsContainer p {
+        font-size: 2vw;
+    }
+
+    .detailsContainer a {
+        font-size: 3vw;
+    }
+
 }
