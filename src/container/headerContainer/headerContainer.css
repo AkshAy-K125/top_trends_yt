@@ -16,12 +16,14 @@
 .headerContainer select {
     -webkit-appearance: none;
     height: 2rem;
-    width: 5rem;
+    margin: .5rem;
+    width: max-content;
     text-align: center;
-    border-radius: 05rem;
+    border-radius: 0.5rem;
     border: none;
     color: red;
     font-weight: bold;
+    padding: .5rem;
 }
 
 .initialPageWarn {
@@ -32,5 +34,7 @@
 .selectFlex {
     width: 15rem;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }

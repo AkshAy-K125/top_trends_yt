@@ -21,6 +21,13 @@
     margin: 0 0 0 2rem;
 }
 
+.detailsContainer>div {
+    &:nth-child(1) {
+        height: 5rem;
+        overflow: hidden;
+    }
+}
+
 .detailsContainer a {
     font-size: 1.5vw;
     text-decoration: none;

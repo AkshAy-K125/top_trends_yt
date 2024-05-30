@@ -2,7 +2,6 @@ import './cards.css'
 import { Zoom } from "react-awesome-reveal";
 
 const Cards = ({ cardDetails, ind }) => {
-    console.log(cardDetails)
     return (
         <Zoom key={"t" + ind} triggerOnce='false'>
             <div className="card">
