@@ -23,7 +23,6 @@
 
 .detailsContainer>div {
     &:nth-child(1) {
-        height: 5rem;
         overflow: hidden;
     }
 }

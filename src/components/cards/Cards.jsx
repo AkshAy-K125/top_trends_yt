@@ -10,7 +10,15 @@ const Cards = ({ cardDetails, ind }) => {
                 </div>
                 <div className='detailsContainer'>
                     <div>
-                        <a target="blank" href={"https://www.youtube.com/watch?v=" + cardDetails["video"]["videoId"]}>{cardDetails["video"]["title"]}</a>
+                        <a target="blank" href={"https://www.youtube.com/watch?v=" + cardDetails["video"]["videoId"]}>
+                            {
+                                (cardDetails["video"]["title"]).length > 50
+                                    ?
+                                    (cardDetails["video"]["title"]).substring(0, 50) + "..."
+                                    :
+                                    cardDetails["video"]["title"]
+                            }
+                        </a>
                     </div>
                     <div>
                         <p>
